@@ -115,7 +115,7 @@ html{
 
 /* Bootrap contact */
 #main .all-contact{
-    background: url('/WEB106/ASM/assets/img/contact/cotact1.jpg')center / cover no-repeat;
+    background: url('../img/contact/cotact1.jpg')center / cover no-repeat;
     margin-top: 80px;
 }
 
@@ -126,7 +126,7 @@ html{
 
 /* Footer */
 #footer{
-    background: url('/WEB106/ASM/assets/img/footer/bg-footer.jpg') center / cover no-repeat;
+    background: url('../img/footer/bg-footer.jpg') center / cover no-repeat;
     margin-top: 40px;
 }
 .footer-list{
