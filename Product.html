@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style>
+    @media (min-width:740px) and (max-width:1023px){
+        .product-list{
+            width: 100%;
+        }
+        .product-item{
+            width: calc(100%/2);
+        }
+    }
+    @media (max-width:740px){
+        #header #nav{
+            margin: 0;
+            padding: 0;
+        }
+        #footer .footer-news ul{
+            padding: 0;
+        }
+    }
+
+    .product-item:hover{
+        transform: translateY(-15px);
+        transition: .5s;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div>
+        <!-- header -->
+        <div id="header">
+            <!-- Begin: Nav -->
+        
+            <ul id="nav">
+                <!-- <div class="mobile-menu-btn">
+                    <i class=" menu-icon ti-menu"></i>
+                </div> -->
+                <li id="mobile-menu"><a href="#"><i class=" menu-icon fa fa-bars"></i></a></li>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="#gioithieu">Giới thiệu</a></li>
+                <li><a href="Product.html">Tour</a></li>
+                <li><a href="news.html">Tin tức</a></li>
+                <li><a href="contact.html">Liên hệ</a></li>
+                <li>
+                    <a href="#">Xem thêm <i class=" nav-arrow-down fa fa--angle-down"></i></a>
+                    <ul class="subnav">
+                        <ul>
+                            <li><a href="#">Cộng đồng</a></li>
+                            <li><a href="#">Hỗ trợ</a></li>
+                            <li><a href="#">Hỏi đáp</a></li>
+                        </ul>
+                    </ul>
+                </li>
+            </ul>
+            <!-- End: Nav -->
+
+            <!-- Begin: Search -->
+            <div class="search-button">
+                <i class="search-icon fa fa-search"></i>
+            </div>
+            <!-- End: Search -->
+        </div>
+
+        <!-- card -->
+        <div class="container pt-5 product-list">
+            <h1 class="text-center mt-5 h3">Cảm nhận đặc sản miền Trung</h1>
+            <p class="text-center mt-3 text-black-50">CẢM NHẬN TINH HOA ẨM THỰC</p>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 mt-5 ">
+                <div class="col product-item">
+                    <div class="card mt-4" >
+                    <img src="./assets/img/Product/sp1.jpeg" class="card-img-top" alt="...">
+                    <div class="text-center card-body">
+                    <h5 class="card-title">Mì quảng ếch</h5>
+                    <p class="card-text">“Thiên đường tình yêu” là mỹ từ xưng tụng Đà Nẵng quả không sai. Bờ biển buông lơi, uốn cong theo từng cơn sóng vỗ được điểm tô bởi những hàng cọ, hàng dừa</p>
+                    <p>XL/XXL/S</p>
+                    <P>120$</P>
+                    <a href="#" class="btn btn-primary  py-2  px-5">Buy</a>
+                    </div>
+                </div>
+            </div>
+                <div class="col product-item">
+                    <div class="card mt-4">
+                    <img src="./assets/img/Product/sp3.jpg" class="card-img-top" alt="...">
+                    <div class="text-center card-body">
+                    <h5 class="card-title">Bánh xèo tôm nhảy</h5>
+                    <p class="card-text">“Thiên đường tình yêu” là mỹ từ xưng tụng Đà Nẵng quả không sai. Bờ biển buông lơi, uốn cong theo từng cơn sóng vỗ được điểm tô bởi những hàng cọ, hàng dừa</p>
+                    <p>XL/XXL/S</p>
+                    <P>120$</P>
+                    <a href="#" class="btn btn-primary py-2  px-5">Buy</a>
+                    </div>
+                </div>
+            </div>
+                <div class="col product-item">
+                    <div class="card mt-4">
+                    <img src="./assets/img/Product/sp5.jpg" class="card-img-top" alt="...">
+                    <div class="text-center card-body">
+                    <h5 class="card-title text-center">Cua rang me</h5>
+                    <p class="card-text text-start">“Thiên đường tình yêu” là mỹ từ xưng tụng Đà Nẵng quả không sai. Bờ biển buông lơi, uốn cong theo từng cơn sóng vỗ được điểm tô bởi những hàng cọ, hàng dừa</p>
+                    <p class="text-center">XL/XXL/S</p>
+                    <P class="text-center">100$</P>
+                    <a href="#" class=" text-center btn btn-primary py-2  px-5">Buy</a>
+                    </div>
+                </div>
+            </div>
+                <div class="col product-item">
+                    <div class="card mt-4">
+                    <img src="./assets/img/Product/sp4.jpg" class="card-img-top" alt="...">
+                    <div class="text-center card-body">
+                    <h5 class="card-title">Bánh khọt</h5>
+                    <p class="card-text">“Thiên đường tình yêu” là mỹ từ xưng tụng Đà Nẵng quả không sai. Bờ biển buông lơi, uốn cong theo từng cơn sóng vỗ được điểm tô bởi những hàng cọ, hàng dừa</p>
+                    <p>XL/XXL/S</p>
+                    <P>120$</P>
+                    <a href="#" class="btn btn-primary py-2  px-5">Buy</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <h1 class="text-center mt-5 h3">Tour tham qua trọn gói</h1>
+            <p class="text-center mt-3 text-black-50">ĐƠN GIẢN HÓA LỊCH TRÌNH KHÁM PHÁ</p>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 mt-5 ">
+                <div class="col product-item">
+                    <div class="card mt-4" >
+                    <img src="./assets/img/Product/sp2.jpg" class="card-img-top" alt="...">
+                    <div class="text-center card-body">
+                    <h5 class="card-title">Tour thượng ngoạn Bà Nà Hill</h5>
+                    <p class="card-text">“Thiên đường tình yêu” là mỹ từ xưng tụng Đà Nẵng quả không sai. Bờ biển buông lơi, uốn cong theo từng cơn sóng vỗ được điểm tô bởi những hàng cọ, hàng dừa</p>
+                    <p>XL/XXL/S</p>
+                    <P>120$</P>
+                    <a href="#" class="btn btn-primary  py-2  px-5">Buy</a>
+                    </div>
+                </div>
+            </div>
+                <div class="col product-item">
+                    <div class="card mt-4">
+                    <img src="./assets/img/Product/sp6.jpg" class="card-img-top" alt="...">
+                    <div class="text-center card-body">
+                    <h5 class="card-title">Ngắm bình minh trên biển</h5>
+                    <p class="card-text">“Thiên đường tình yêu” là mỹ từ xưng tụng Đà Nẵng quả không sai. Bờ biển buông lơi, uốn cong theo từng cơn sóng vỗ được điểm tô bởi những hàng cọ, hàng dừa</p>
+                    <p>XL/XXL/S</p>
+                    <P>120$</P>
+                    <a href="#" class="btn btn-primary py-2  px-5">Buy</a>
+                    </div>
+                </div>
+            </div>
+                <div class="col product-item">
+                    <div class="card mt-4">
+                    <img src="./assets/img/Product/sp7.jpg" class="card-img-top" alt="...">
+                    <div class="text-center card-body">
+                    <h5 class="card-title text-center">Phố đèn lồng Hội An</h5>
+                    <p class="card-text text-start">“Thiên đường tình yêu” là mỹ từ xưng tụng Đà Nẵng quả không sai. Bờ biển buông lơi, uốn cong theo từng cơn sóng vỗ được điểm tô bởi những hàng cọ, hàng dừa</p>
+                    <p class="text-center">XL/XXL/S</p>
+                    <P class="text-center">100$</P>
+                    <a href="#" class=" text-center btn btn-primary py-2  px-5">Buy</a>
+                    </div>
+                </div>
+            </div>
+                <div class="col product-item">
+                    <div class="card mt-4">
+                    <img src="./assets/img/Product/sp8.jpg" class="card-img-top" alt="...">
+                    <div class="text-center card-body">
+                    <h5 class="card-title">Lễ hội hoa đăng Hội An</h5>
+                    <p class="card-text">“Thiên đường tình yêu” là mỹ từ xưng tụng Đà Nẵng quả không sai. Bờ biển buông lơi, uốn cong theo từng cơn sóng vỗ được điểm tô bởi những hàng cọ, hàng dừa</p>
+                    <p>XL/XXL/S</p>
+                    <P>120$</P>
+                    <a href="#" class="btn btn-primary py-2  px-5">Buy</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div id="footer">
+            <div class="row-clear footer-list">
+                <div class="footer-item">
+                    <div class="footer-logo">
+                        <img src="./assets/img/footer/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-heading">Liên Hệ</div>
+                    <div class="footer-contact">
+                        <p><i class="fa fa-map-marker"></i>319 c16 Lý Thường Kiệt, Q.11, HCM</p>
+                        <p><i class="fa fa-phone"></i>0126 922 0162</p>
+                        <p><i class="fa fa-envelope"></i>demonhunter@gmail.com</p>
+                        <div class="social-list">
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                            <a href=""><i class="fa fa-instagram"></i></a>
+                            <a href=""><i class="fa fa-twitter"></i></a>
+                            <a href=""><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-item">
+                    <div class="footer-heading">Tin Tức</div>
+                    <div class="footer-news">
+                        <ul>
+                            <li><a href="#">Bản tin Du Lịch Việt</a></li>
+                            <li><a href="#">Cẩm nang du lịch</a></li>
+                            <li><a href="#">Tư vấn du lịch</a></li>
+                            <li><a href="#">Tuyển dụng Du Lịch</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-item">
+                    <div class="footer-heading">Tour Phổ Biến</div>
+                    <div class="footer-intro">
+                        <img src="./assets/img/footer/img-footer-1.jpg" alt="">
+                        <img src="./assets/img/footer/img-footer-2.jpg" alt="">
+                        <img src="./assets/img/footer/img-footer-3.jpg" alt="">
+                        <img src="./assets/img/footer/img-footer-4.jpg" alt="">
+                        <img src="./assets/img/footer/img-footer-5.jpg" alt="">
+                        <img src="./assets/img/footer/img-footer-6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var header = document.getElementById('header');
+            var mobileMenu = document.getElementById('mobile-menu');
+            var headerHeight = header.clientHeight;
+
+            mobileMenu.onclick = function(){
+                var isClosed = header.clientHeight === headerHeight;
+                if(isClosed){
+                    header.style.height = 'auto';
+                }else{
+                    header.style.height = null;
+                }
+            }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
